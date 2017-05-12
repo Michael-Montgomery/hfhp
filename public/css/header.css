@@ -1,0 +1,23 @@
+.header {
+    height: 70px;
+}
+
+.header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+.header nav a {
+    color: white;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header nav a:first-child {
+    float: left;
+}
+
+.header nav a:last-child {
+    float: right;
+}

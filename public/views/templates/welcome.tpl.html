@@ -1,0 +1,60 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 welcome-wrapper-one">
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 healthcare-reform-wrapper welcome-wrapper-two">
+            <div class="welcome-icon-wrapper">
+                <p><i class="fa fa-newspaper-o" aria-hidden="true"></i></p>
+            </div><br>
+            <h3>Healthcare Reform</h3>
+        </div>
+        <div class="col-md-3 provider-directory-wrapper welcome-wrapper-two">
+            <div class="welcome-icon-wrapper">
+                <p><i class="fa fa-sitemap" aria-hidden="true"></i></p>
+            </div><br>
+            <h3>Provider Directory</h3>
+        </div>
+        <div class="col-md-3 improve-your-health-wrapper welcome-wrapper-two">
+            <div class="welcome-icon-wrapper">
+                <p><i class="fa fa-heartbeat" aria-hidden="true"></i></p>
+            </div><br>
+            <h3>Improve Your Health</h3>
+        </div>
+        <div class="col-md-3 about-us-wrapper welcome-wrapper-two">
+            <div class="welcome-icon-wrapper">
+                <p><i class="fa fa-bell-o" aria-hidden="true"></i></p>
+            </div><br>
+            <h3>About Us</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 welcome-wrapper-three">
+            <h3>Hot Topics</h3><br>
+            <ul id="hot-topic-list">
+                <li ng-repeat="topic in topics">
+                    <div class="topic-wrapper">
+                        <div class="topic-thumbnail-wrapper" ng-style="{'background-image':'url({{topic.url}})'}"></div>
+                        <p class="topic-topic">{{topic.topic}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 welcome-wrapper-four">
+
+        </div>
+    </div>
+</div>
