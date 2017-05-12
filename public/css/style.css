@@ -60,6 +60,7 @@
     list-style-type: none;
     text-align: center;
     padding-left: 0;
+    margin-bottom: 50px;
 }
 
 #hot-topic-list li {
@@ -67,25 +68,22 @@
 }
 
 .topic-wrapper {
-    height: 200px;
+    height: 350px;
     border: 1px solid;
+    background-size: cover;
+    background-position: center;
 }
 
 .topic-topic {
-    position: relative;
-    top: -200px;
-}
-
-.topic-wrapper p {
+    background-color: rgba(0,0,0,.6);
+    color: white;
     font-size: 3em;
+    margin-top: 150px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.topic-thumbnail-wrapper {
-    height: 100%;
-    width: 200px;
-    border: 1px solid;
-    background-size: cover;
-}
 
 
 

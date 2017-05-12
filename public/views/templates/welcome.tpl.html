@@ -41,8 +41,7 @@
             <h3>Hot Topics</h3><br>
             <ul id="hot-topic-list">
                 <li ng-repeat="topic in topics">
-                    <div class="topic-wrapper">
-                        <div class="topic-thumbnail-wrapper" ng-style="{'background-image':'url({{topic.url}})'}"></div>
+                    <div class="topic-wrapper" ng-style="{'background-image':'url({{topic.url}})'}">
                         <p class="topic-topic">{{topic.topic}}</p>
                     </div>
                 </li>
