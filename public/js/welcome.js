@@ -2,6 +2,23 @@ var app = angular.module('hfhp.welcome', []);
 
 
 app.controller('welcomeController', function($scope) {
+    $(window).scroll(function() {
+        if($(window).scrollTop() != 0) {
+            $('.header').css({
+                'background-color': '#4652CB',
+                'opacity': '.9'
+            })
+        } else {
+            $('.header').css({
+                'background-color': 'transparent',
+                'opacity': '1'
+            })
+        }
+    })
+
+
+
+
     $scope.topics = [
         {
             topic: 'Tobacco Cessation',

@@ -1,5 +1,7 @@
 .header {
     height: 70px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
 }
 
 .header nav {
@@ -20,4 +22,48 @@
 
 .header nav a:last-child {
     float: right;
+    display: none;
+}
+
+.header form {
+    display: inline;
+}
+
+
+.header nav input {
+    font-size: 1.5em;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    outline: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: none;
+    padding: 20px;
+    margin-right: 0;
+}
+
+.header button {
+    font-size: 1.5em;
+    height: 40px;
+    line-height: 25px;
+    outline: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: white;
+    color: #4B88E5;
+    border: none;
+    margin-left: -5px;
+}
+
+
+@media (max-width: 600px) {
+    .header nav a:last-child {
+        display: inline;
+    }
+
+    .header nav a:nth-child(2),.header nav a:nth-child(3),.header nav a:nth-child(4),.header nav a:nth-child(5),
+    .header nav a:nth-child(6), .header nav a:nth-child(7), .header input, .header button {
+        display: none;
+    }
 }

@@ -1,3 +1,8 @@
+* {
+    font-family: Avenir;
+}
+
+
 
 
 .welcome-wrapper-one {
@@ -11,7 +16,13 @@
 .welcome-wrapper-two {
     height: 30vh;
     border: 3px solid white;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
 
+.welcome-wrapper-two:active {
+    position: relative;
+    top: 1px;
 }
 
 .welcome-icon-wrapper {
@@ -39,16 +50,32 @@
     background-color: #7CADF8;
 }
 
+.healthcare-reform-wrapper:hover {
+    background-color: #4B88E5 ;
+}
+
 .provider-directory-wrapper {
     background-color: #81F87C;
+}
+
+.provider-directory-wrapper:hover {
+    background-color: #52E14C;
 }
 
 .improve-your-health-wrapper {
     background-color: #F87CEB;
 }
 
+.improve-your-health-wrapper:hover {
+    background-color: #D448C5;
+}
+
 .about-us-wrapper {
     background-color: #F0AE3A;
+}
+
+.about-us-wrapper:hover {
+    background-color: #D79115;
 }
 
 .welcome-wrapper-three h3:first-child {
@@ -101,5 +128,60 @@
     background-image: url("http://us.hellomagazine.com/imagenes/healthandbeauty/health-and-fitness/2016122335340/fitness-trends-to-expect-uk-2017/0-188-820/Exercise-t.jpg");
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .welcome-wrapper-one {
+
+    }
+
+    .welcome-wrapper-two {
+        height: 20vh;
+    }
+
+    .welcome-wrapper-two p {
+        font-size: 2em;
+    }
+
+    .welcome-wrapper-two h3 {
+        font-size: 1.5em;
+        padding-top: 0;
+        margin-top: -45px;
+    }
+    .welcome-wrapper-three {
+        padding: 0;
+    }
+    .topic-wrapper {
+        height: 250px;
+        border-left: none;
+        border-right: none;
+    }
+    .topic-topic {
+        font-size: 1.4em;
+        margin-top: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
