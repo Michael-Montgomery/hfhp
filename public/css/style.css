@@ -15,7 +15,7 @@
 
 .welcome-wrapper-two {
     height: 30vh;
-    border: 3px solid white;
+    border: 2px solid white;
     -webkit-transition: all .4s;
     transition: all .4s;
 }
@@ -101,6 +101,7 @@
     background-position: center;
 }
 
+
 .topic-topic {
     background-color: rgba(0,0,0,.6);
     color: white;
@@ -111,6 +112,26 @@
     padding-right: 50px;
 }
 
+.welcome-wrapper-four {
+    padding-top: 10vh;
+}
+.welcome-wrapper-four h3 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+}
+
+#reasons-list {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#reasons-list li {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
 
 
 
@@ -125,7 +146,7 @@
 
 .welcome-wrapper-four {
     height: 60vh;
-    background-image: url("http://us.hellomagazine.com/imagenes/healthandbeauty/health-and-fitness/2016122335340/fitness-trends-to-expect-uk-2017/0-188-820/Exercise-t.jpg");
+    background-image: url("https://ak2.picdn.net/shutterstock/videos/20508823/thumb/7.jpg?i10c=img.resize(height:160)");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -158,6 +179,7 @@
 
     .welcome-wrapper-two {
         height: 20vh;
+        border-bottom: 1px solid white;
     }
 
     .welcome-wrapper-two p {
@@ -182,6 +204,14 @@
         margin-top: 100px;
         padding-left: 25px;
         padding-right: 25px;
+    }
+    .welcome-wrapper-four h3 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #reasons-list li {
+        font-size: 1.2em;
     }
 }
 

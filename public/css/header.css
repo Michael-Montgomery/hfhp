@@ -16,10 +16,17 @@
     margin-right: 10px;
 }
 
+.header nav a:hover {
+    text-decoration: none;
+}
+
 .header nav a:first-child {
     float: left;
 }
 
+.header nav a:nth-child(8) {
+    float: right;
+}
 .header nav a:last-child {
     float: right;
     display: none;
@@ -63,7 +70,7 @@
     }
 
     .header nav a:nth-child(2),.header nav a:nth-child(3),.header nav a:nth-child(4),.header nav a:nth-child(5),
-    .header nav a:nth-child(6), .header nav a:nth-child(7), .header input, .header button {
+    .header nav a:nth-child(6), .header nav a:nth-child(7), .header nav a:nth-child(8), .header input, .header button {
         display: none;
     }
 }
