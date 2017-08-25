@@ -26,7 +26,7 @@ app.controller('welcomeController', function($scope) {
         },
         {
             topic: 'A Fine Time For Wine',
-            url: 'http://charlestonwineandfood.com/wp-content/uploads/2016/09/Master-ing-Wine-101.jpg'
+            url: 'http://assets.bubblear.com/wp-content/uploads/2016/08/01115459/20150909205144-red-wine-classy-evening-dinner.jpeg'
         },
         {
             topic: 'Apple Cider Vinegar: The Real Deal',

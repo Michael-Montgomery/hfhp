@@ -16,6 +16,10 @@
     margin-right: 10px;
 }
 
+.header nav a img {
+    height: 60px;
+}
+
 .header nav a:hover {
     text-decoration: none;
 }
